@@ -1,0 +1,43 @@
+
+h1{
+    margin: 0px;
+    font-size: 2em;
+}
+
+h3{
+    margin: 0px;
+    padding-right: 339px;
+    padding-left: 268px;
+    display: inline-block;
+}
+
+h5{
+    margin-bottom: 0px;
+    padding-right: 325px;
+    display: inline-block;
+}
+
+h6{
+    margin: 0px;
+    padding-right: 325px;
+    font-size: 9px;
+}
+
+#headLine{
+    display: inline-
+    text-align: center;
+    font-size: 2em;
+}
+
+#byLine{
+    padding-left: 432px;
+    padding-right: 150px;
+    text-align: center;
+}
+
+.columnStyle{
+    display: inline-block; width: 30%;
+    font-family: monospace, sans-serif;
+    font-size: 15px;
+}
+

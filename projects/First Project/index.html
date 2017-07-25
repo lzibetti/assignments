@@ -7,7 +7,24 @@
 </head>
 
 <body>
-  
+  function answerCheck(a){
+  if(a == 'y'){
+    return true;
+  } else {
+    return false;
+  }
+}
+var shopper = {
+  name: 'laius', 
+  items: 10,
+ isNeeded: answerCheck(),
+  groceryCart: ['melon', 'apple', 'grqpe', 'celery', 'carrots', 'paper towels', 'milk', 'ice cream', 'bread', 'candy'],
+ shop: function(){
+  return 'Shopping is my bane';
+  }
+}
+
+shopper.groceryCart[5]
 </body>
 
 </html>
