@@ -36,8 +36,11 @@ h6{
 }
 
 .columnStyle{
-    display: inline-block; width: 30%;
+    display: inline-block; 
+    width: 30%;
     font-family: monospace, sans-serif;
     font-size: 15px;
+    vertical-align: top;
+    padding-right: 2%;
 }
 
