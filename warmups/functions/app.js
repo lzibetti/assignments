@@ -1,61 +1,53 @@
-//var fruits = ['banana', 'starfruit', 'kumquat', 'watermelon', 'grape', 'apple', 'orange'];
-//
-//function fruitSlice(yum1, yum2){
-//  return fruits.slice(yum1, yum2)
+// function adds 2 numbers
+//function add(parm1, parm2){
+//  return parm1 + parm2;
 //}
-//
-//
-//function fruitSplice(eat1, eat2){
-//  return fruits.splice(2, 3)
-//}
-//
-//console.log(fruitSlice(0,4))
-//console.log(fruitSplice())
+//console.log(add(2, 91));
 
 
-//function eat(item, numOfUser, favoriteFood){
-//  if (favoriteFood === "pie") {return item}
-//  else {return "not 3"}
-//}
-//
-//var number = 3
-//console.log(eat(number, 7, "pie"));
-//console.log(eat(5, 1, 1));
+// function proccesses largest of three numbers
+//function biggest(greater1, greater2, greater3){
+//  if (greater1 > greater2 || greater1 > greater3) {
+//    return greater1;
+//  } else if (greater2 > greater3){
+//    return greater2;
+//  } 
+//  return greater3;
+//} 
+//console.log(biggest(300,29,1092))
 
-
-// function calling a function
-//function eat(item, numOfUser, favoriteFood){
-//  if (favoriteFood === "pie") {
-//    return sum(item, 1)
-//  }
-//  else {
-//    return "not 3"
-//  }
+// function determines if number is odd or even
+//function oddOrEven(num) {
+//    if (num % 2) {
+//        return "This number " + num + ", is odd!";
+//    }
+//    return "This number " + num + ", is even!";
 //}
-//
-//function sum(num1, num2, favoriteFood){
-//  var total = 0;
-//  total = num1 + num2;
-//  return total;
-//}
-//var number = 3
-//console.log(eat(number, 7, "pie"));
-//console.log(eat(5, 1, 1));
+//console.log(oddOrEven(3));
 
+// function manipulates string
+function strWork(word) {
+    if (word.length <= 20){
+        return word + word;
+    }
+    var half = word.length / 2;
+    return word.substring (0, half);
+}
+console.log(strWork("My moma told me you better shop around"));
 
-// 
-//function eat(item, numOfUser, favoriteFood){
-//  if (favoriteFood === "pie") {
-//    return sum(item, 1)
-//  }
-//  else {
-//    return "not 3"
-//  }
+// functions in Uptown exercize, Rachell's work
+//var lyrics = ["This", "hit", "that", "ice", "cold",  
+//              "Michelle", "Pfeiffer", "that", "white", 
+//              "gold", "This", "one", "for", "them", 
+//              "hood", "girls", "Them", "good", "girls", 
+//              "straight", "masterpieces", "Stylin'", 
+//              "whilen'", "livin'", "it", "up", "in", 
+//              "the", "city", "Got", "Chucks", "on", 
+//              "with", "Saint", "Laurent", "Gotta", "kiss", 
+//              "myself", "I'm", "so", "pretty"];//function everyOther(array) {
+//    for (var i = 1; i <= array.length; i++) {
+//        array.splice(i, 1);
+//    }
+//    return array.join(' ');
 //}
-//
-//function sum(num1, num2, favoriteFood){
-//  var total = 0;
-//  total = num1 + num2;
-//  return total;
-//}
-
+//console.log(everyOther(lyrics));
