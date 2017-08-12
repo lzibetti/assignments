@@ -1,0 +1,1 @@
+Vschool exercise to practise loops: for loops, while loops.

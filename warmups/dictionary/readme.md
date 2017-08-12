@@ -1,0 +1,1 @@
+function will add new word with its description, also check if word already exists

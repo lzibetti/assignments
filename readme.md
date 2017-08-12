@@ -1,0 +1,1 @@
+The assignments folder is the tops level for tracking coding projects with git

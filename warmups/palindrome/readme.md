@@ -1,0 +1,1 @@
+Check character input minus spaces, special characters and punctuation for a palindrome. Use mocha and chai to catch errors.

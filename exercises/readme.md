@@ -1,0 +1,1 @@
+This directory contains exercises used for practicing principles and concepts learned in Vschool

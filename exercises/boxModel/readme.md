@@ -1,0 +1,1 @@
+Vschool exercise, preparation for using styles.css file.

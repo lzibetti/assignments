@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>marioPestControl</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="mario">
+                <h1 class="mainTitle col-md-10 col-md-offset-1">Mario Pest Control</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="purchaseOrder col-md-10 col-md-offset-1">
+                <h3 class="pOrder">Purchase order</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="icons col-md-4">
+                <h1>Goomba</h1>
+                <img class='infoGoomba' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyEgt3MGJafLB8jWoEjAKVcV2zhQ6uGtlDpTR00tiAM_7DfvTs" alt="">
+            </div>
+            <div class="icons col-md-4">
+                <h1>King Bob-omb</h1>
+                <img class='infoBob' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPh0Fn5coIx2DKXu7U6NWY2YGCoQo5FY9qb2ai7umHzrwFpAJu" alt="">
+            </div>
+            <div class="icons col-md-4">
+                <h1>Cheep-Cheep</h1>
+                <img class="infoCheep" src="https://vignette1.wikia.nocookie.net/fantendo/images/2/2f/Triple_Spiny_Cheep-Cheep.png/revision/latest?cb=20130806131320" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="accounts col-md-2 col-md-offset-1">
+                <ul>
+                    <li>12 total caught</li>
+                    <li>5 coins each</li>
+                    <li id="gTotl">60 total coins</li>
+                </ul>
+            </div>
+            <div class="accounts col-md-2 col-md-offset-2">
+                <ul>
+                    <li>8 total caught</li>
+                    <li>7 coins each</li>
+                    <li id="bTotl">56 total coins</li>
+                </ul>
+            </div>
+            <div class="accounts col-md-2 col-md-offset-2">
+            <ul>
+                <li>5 total caught</li>
+                <li>11 coins each</li>
+                <li id="cTotl">55 total coins</li>
+            </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="total col-md-4 col-md-offset-4">
+                <h1>A total of <span id="sumsAll"></span> coins earned.</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+           <div class="col-md-12">
+                <h6 class="foot">email: mariob@gmail.com         URL:https://mario.nintendo.com Address: Nintendo of America Inc. Headquarters are in Redmond, Washington</h6>
+            </div>
+        </div>
+    </div>
+
+    <script src="marioPest.js"></script>
+</body>
+
+</html>

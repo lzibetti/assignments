@@ -1,4 +1,4 @@
-#largePink{
+#largePink {
     background-color: #F5C6D6;
     height: 140px;
     width: 90%;
@@ -8,7 +8,7 @@
 .smallRed {
     background-color: #EE2E84;
     height: 140px;
-    width: 21.6%;
+    width: 21.8%;
     margin: 4px;
     display: inline-block;
     margin-top: 10px
@@ -23,16 +23,16 @@
     margin-top: 5px
 }
 
-#twoThirdBlue{
+#twoThirdBlue {
     background-color: #8DC63F;
     height: 140px;
     width: 67.5%;
     margin: 4px;
     display: inline-block;
-    margin-top: 5px;   
+    margin-top: 5px;
 }
 
-#oneThirdTan{
+#oneThirdTan {
     background-color: #E76E34;
     height: 140px;
     width: 21.6%;

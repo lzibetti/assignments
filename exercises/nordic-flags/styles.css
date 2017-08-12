@@ -1,0 +1,136 @@
+/*Everything in CSS is either "positioned" or "not positioned"*/
+/*Everything is position: static by default, which is considered "not positioned"*/
+/*position: fixed glues the element to the screen and lets other elements take up its space*/
+/*position: relative doesn't change positioning, but makes an element "positioned"*/
+/*position: absolute repositions an element in relation to its most closely-related "positioned" ancestor, OR the viewable window if there is no positioned ancestor*/
+
+/*Sweedish flag */
+/*
+.sweeden {
+    position: relative;
+}
+
+.flag-outline-swe {
+    height: 300px;
+    width: 480px;
+    background-color: rgb(254, 204, 0);
+    position: absolute;
+    left: 2%;
+    top: 10px;
+    transform: translateX 50%;
+}
+
+.box-top-left-swe {
+    height: 125px;
+    width: 130px;
+    background-color: rgb(0, 106, 167);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.box-bottom-left-swe {
+    height: 125px;
+    width: 130px;
+    background-color: rgb(0, 106, 167);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.box-top-right-swe {
+    height: 125px;
+    width: 300px;
+    background-color: rgb(0, 106, 167);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.box-bottom-right-swe {
+    height: 125px;
+    width: 300px;
+    background-color: rgb(0, 106, 167);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+*/
+
+/*Finnish flag*/
+.finland {
+    position: relative;
+}
+
+.flag-outline-fin {
+    height: 300px;
+    width: 480px;
+    background-color: #0b0080;
+    position: absolute;
+    right: 2%;
+    top: 10px;
+}
+
+.box-top-left-fin {
+    height: 125px;
+    width: 130px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-left: solid gray 0.1px;
+
+}
+
+.box-bottom-left-fin {
+    height: 125px;
+    width: 130px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.box-top-right-fin {
+    height: 125px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-color: black;
+}
+.box-bottom-right-fin {
+    height: 125px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    border-color: black;
+}
+
+.flag-outline {
+    border: solid gray 0.1px;
+    position: absolute;
+}
+
+.border-bottom {
+    border-bottom: solid gray 0.1px;
+    position: absolute;
+}
+
+/*
+.border-right {
+    
+    position: absolute;
+}
+*/
+
+.border-right {
+    border-right: solid gray 0.1px;
+    position: absolute;
+}
+
+.border-left {
+    border-left: solid gray 0.1px;
+    position: absolute;
+}

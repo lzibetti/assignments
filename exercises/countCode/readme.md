@@ -1,0 +1,1 @@
+Vschool exercise to count number of times code appears in the input string. Any letter in place of d when co*e exists is also counted.

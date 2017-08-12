@@ -1,0 +1,1 @@
+Vschool exercise for css style pages

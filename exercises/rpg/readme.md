@@ -1,0 +1,1 @@
+Vschool exercise for preparation in coding the collossal rpg project. This game is finished, it uses to while loops that allow the game to be reused without restarting it. The hint file is to help with the project.
