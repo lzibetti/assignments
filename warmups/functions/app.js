@@ -31,9 +31,9 @@ function strWork(word) {
         return word + word;
     }
     var half = word.length / 2;
-    return word.substring (0, half);
+    return word.substr (half, word.length);
 }
-console.log(strWork("My moma told me you better shop around"));
+console.log(strWork("My moma told me yourebetter  shop around"));
 
 // functions in Uptown exercize, Rachell's work
 //var lyrics = ["This", "hit", "that", "ice", "cold",  
