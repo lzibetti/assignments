@@ -2,31 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>axios todo</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
-    <h1>Your honeydew list</h1>
-    <p>Do something usefull, use this as a todo list</p>
-    <form id="todo-form">
-        <input id="title" type="text" name="title">
-        <label for="">Item</label>
-        <br>
-        <input id="description" type="text" name="descr">
-        <label for="">Item description</label>
-        <br>
-        <input id="price" type="text" name="price">
-        <label for="">Item price</label>
-        <br>
-        <input id="image" type="text" name="image">
-        <label for="">Item image</label>
-        <br>
-        <input class="completed" type="checkbox" name="finished" id="complete" value=false>
-        <label for="finished">Done with item</label>
-        <br>
-        <button type="button" id="submit">Submit</button>
-        <script src="axiosIntro.js"></script>
-    </form>
+   <form action="action">
+       <input type="text">
+       <input type="text">
+       <input type="text">
+       <button>Submit</button>
+   </form>
+    <div class="container">
+    <h3>Todos</h3>
+    <div id="todos" class="row"></div>
+        
+    </div>
+    <script src="node_modules/axios/dist/axios.js"></script>
+    <script src="axiosTodo.js"></script>
 </body>
 </html>

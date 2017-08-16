@@ -33,7 +33,7 @@ function strWork(word) {
     var half = word.length / 2;
     return word.substr (half, word.length);
 }
-console.log(strWork("My moma told me yourebetter  shop around"));
+console.log(strWork("My moma told me you better  shop around"));
 
 // functions in Uptown exercize, Rachell's work
 //var lyrics = ["This", "hit", "that", "ice", "cold",  

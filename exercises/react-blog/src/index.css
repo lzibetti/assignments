@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+    text-decoration: blue;
+}
+
+.header-wrapper {
+background-color: pink;
+color: purple;
+height: 200px;
+padding: 50px;
+}
+
+.header-title {
+    text-align: center;
+}
+.navbar-item {
+    display: inline;
+    margin: 10px;
+}
+
+a {
+    font-size: 20px;
+}

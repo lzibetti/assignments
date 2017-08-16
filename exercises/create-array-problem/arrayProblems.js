@@ -1,7 +1,5 @@
 //var fruits = ['banana', 'starfruit', 'kumquat', 'watermelon', 'grape', 'apple', 'orange'];
 
-
-
 // function calling a function
 function farmArray(){
     var farmThings[]
@@ -10,7 +8,6 @@ function farmArray(){
 //        ```code block ```
     }
 }
-
 
 // 
 //function eat(item, numOfUser, favoriteFood){
@@ -27,7 +24,6 @@ function farmArray(){
 //  total = num1 + num2;
 //  return total;
 //}
-
 
 function arr() {
     var arr1 = []
@@ -46,9 +42,7 @@ function addToArray(arr) {
   //push 999 into arr and return it
 }
 function whatever2() {
-  
 }
-
 
 //var isEmpty = true;
 //var isThisEmpty = false;
@@ -150,10 +144,10 @@ function whatever2() {
 var myArr = ["Jess", "AJ", "Travis"]
 
 for (var i=0; i < myArr.length; i++) {
-  if (myArr[i] === "Travis")
-      console.log(i)
-      console.log(myArr[i])
-
+  if (myArr[i] === "Travis") {
+      console.log(i);
+      console.log(myArr[i]);
+  }
 //  num++
 //  if (num > 10) break;
 }

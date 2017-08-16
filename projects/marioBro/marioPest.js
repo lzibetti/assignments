@@ -9,4 +9,3 @@ function addTotals() {
 }
 
 document.getElementById('sumsAll').innerHTML = addTotals();
-

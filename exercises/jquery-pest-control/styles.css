@@ -1,0 +1,79 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrDLT_OHQ1vJqW9yT2OFdmqqSmqjW7XJ6B2fVhuDCKgTSwHOSG);
+    background-size: 100% auto;
+}
+
+.mario {
+    height: 150px;
+    background-color: sienna;
+}
+
+.mainTitle {
+    font-family: fantasy;
+    font-size: 123px;
+    font-weight: 900;
+    color: aquamarine;
+    text-align: center;
+}
+
+.pOrder {
+    font-family: cursive;
+    font-size: 30px;
+    color: darkmagenta;
+    background-color: lightcyan;
+    text-align: center;
+}
+
+.icons {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.infoGoomba {
+    height: 175px;
+    border:5px solid #000000;
+    border-radius: 8px;
+    box-shadow: 5px 5px 6px #999;
+}
+
+.infoBob {
+    height: 175px;
+    border:5px solid #000000;
+    border-radius: 8px;
+    box-shadow: 5px 5px 6px #999;
+}
+
+.infoCheep {
+    height: 175px;
+    border:5px solid #000000;
+    border-radius: 8px;
+    box-shadow: 5px 5px 6px #999;
+}
+
+.accounts {
+    height: 110px;
+    padding: 0px;
+    margin-top: 37px;
+    background-color: rgba(255, 255, 255, 0.35);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    border-width: thick;
+    font-size: 21px;
+    font-variant: small-caps;
+    font-weight: 500;}
+
+.total {
+    margin-top: 35px;
+    height: 115px;
+    border: 3px dotted #000000;
+    background-color: rgba(255, 255, 255, 0.88);
+    text-align: center;
+}
+
+.foot {
+    margin-top: 20px;
+    padding: 0px;
+    height: 15px;
+    background-color: #F44336;
+    text-align: center;    
+}
