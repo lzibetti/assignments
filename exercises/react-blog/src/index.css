@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 li {
@@ -10,8 +12,8 @@ li {
 .header-wrapper {
 background-color: pink;
 color: purple;
-height: 200px;
-padding: 50px;
+height: 100px;
+padding: 30px;
 }
 
 .header-title {
@@ -20,8 +22,23 @@ padding: 50px;
 .navbar-item {
     display: inline;
     margin: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-right: 20px;
 }
 
 a {
     font-size: 20px;
+}
+
+.img-wrapper {
+    width: 60%;
+    border-color: white solid 10px;
+}
+
+.foot-wrapper {
+    height: 15px;
+    padding: 0px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.52);
 }

@@ -1,0 +1,31 @@
+/* .root {
+    height: 100vh;
+} */
+.counter-wrapper {
+    height: 100vh;
+    /* margin: auto; */
+}
+.btn-wrapper{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-flow: column; */
+    /* justify-content: space-around; */
+    /* position: relative; */
+    width: 33%;
+    margin: 0 8%;
+}
+
+h1 {
+    background: linear-gradient(darkblue, white, darkgoldenrod);
+    padding: 20px;
+    text-align: center;
+}
+.view {
+    text-align: center;
+    font-size: 70px;
+    padding: 10px;
+}
+.up-btn button {
+    padding: 5px;
+    font-size: 50px;
+}

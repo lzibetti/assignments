@@ -1,4 +1,12 @@
-p {
+#explode {
   text-align: center;
-  font-size: 60px;
+  font-size: 80px;
+}
+
+.backgroundPic { 
+  background: url(http://nationalinterest.org/files/main_images/Picture_14_2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }

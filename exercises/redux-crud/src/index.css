@@ -1,0 +1,16 @@
+.counter {
+    text-align: center;
+}
+
+.header-wrapper {
+    margin: 0px;
+    font-size: 90px;
+}
+
+.show {
+    display: inherit;
+}
+
+.hide {
+    display: none;
+}

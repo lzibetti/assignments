@@ -1,32 +1,26 @@
-function printChar (stringChar) {
-    for (i = 0; stringChar.length; i++) {
-        return stringChar''
-    }
-}
+    // The code below this line are examples of different loop structures
 
-//function handleScroll () {
-//    box.style.backgroundColor= "orange";
-//}
-//
-//function handleMouseOver () {
-//    box.style.backgroundColor= "blue";
-//}
-//
-//function handleMouseOut () {
-//    box.style.backgroundColor= "";
-//}
-//
-//function handleMouseDown () {
-//    box.style.backgroundColor= "red";
-//}
-//
-//function handleMouseUp () {
-//    box.style.backgroundColor= "yellow";
-//}
-//
-//box.addEventListener("dblclick", handleDblClick);
-//box.addEventListener("mouseover", handleMouseOver);
-//box.addEventListener("mouseout", handleMouseOut);
-//box.addEventListener("mousedown", handleMouseDown);
-//box.addEventListener("mouseup", handleMouseUp);
-console.log(printChar("separate but equal"));
+    // while loop
+    //var num = 0
+    //while(num <= 100) {
+    //  console.log(num);
+    //  num++
+    //}
+
+    // do loop
+    //do {
+    //  console.log(num)
+    //  num++;
+    //}while (num < 100)
+
+    // for loop
+    //var num = 1;
+    //var myArr = ["Jess", "AJ", "Travis"]
+    //
+    //for (var i=0; i < myArr.length; i++) {
+    //  if (myArr[i] === "Travis")
+    //      console.log(i)
+    //      console.log(myArr[i])
+    //  num++
+    //  if (num > 10) break;
+    //}

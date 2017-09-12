@@ -48,5 +48,4 @@ ReactDOM.render(
         {paraph}
         <img src={car.img} alt={person.firstName}/>
     </div>,
-    document.getElementById('root')
-)
+    document.getElementById('root'))

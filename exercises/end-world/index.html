@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>End of the World</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body id="body">
 
-    <!--<button onclick="stopColor()">Stop Toggling</button>-->
-    <p></p>
-<p id="explode">The world will in 20 of seconds!!!</p>
-
-<script src="endWorld.js"></script>
-
+    <h1 id="explode">The world ends in
+        <br/>
+        <span id="display">00:</span>
+        <span id="minutes">00</span>
+        <span id="colon">:</span>
+        <span class="timer" id="seconds">00</span>
+        <br/>
+    </h1>
+    <script src="endWorld.js"></script>
 </body>
+
 </html>
 
 

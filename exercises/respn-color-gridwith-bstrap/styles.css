@@ -1,74 +1,62 @@
 /*copied, modified and improved from colorGrid. Used borders instead of margins*/
 
+/*
 * {
     box-sizing: border-box;
     font-size: 0px;
 }
+*/
 
-#largePink {
+.largePink {
     background-color: #F5C6D6;
-    height: 140px;
-    width: 90%;
-    border: 5px white solid;
+    height: 150px;
     margin-top: 100px;
+    border: 9px solid white;
 }
 
 .smallRed {
     background-color: #EE2E84;
-    height: 140px;
-    width: 22.5%;
-    border: 5px white solid;
-    display: inline-block;
+    height: 150px;
+    border: 9px solid white;
 }
 
 .midBlue {
     background-color: #85CFD8;
-    height: 140px;
-    width: 45%;
-    border: 5px white solid;
-    display: inline-block;
+    height: 150px;
+    border: 9px solid white;
 }
 
-#twoThirdBlue {
+.twoThirdBlue {
     background-color: #8DC63F;
-    height: 140px;
-    width: 68%;
-    border: 5px white solid;
-    display: inline-block;
+    height: 150px;
+    border: 9px solid white;
 }
 
-#oneThirdTan {
+.oneThirdTan {
     background-color: #E76E34;
-    height: 140px;
-    width: 22%;
-    border: 5px white solid;
-    display: inline-block;
+    height: 150px;
+    border: 9px solid white;
 }
 
 @media (max-width: 768px) {
     #largePink {
         height: 50px;
         border: 1px white solid;
-        width: 80%;
     }
     .smallRed {
         height: 50px;
         border: 1px white solid;
-        width: 80%;
     }
     .midBlue {
         height: 50px;
         border: 1px white solid;
-        width: 80%;
     }
     #twoThirdBlue {
         height: 50px;
         border: 1px white solid;
-        width: 80%;
     }
     #oneThirdTan {
         height: 50px;
         border: 1px white solid;
-        width: 80%;
     }
 }

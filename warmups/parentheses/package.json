@@ -1,0 +1,15 @@
+{
+  "name": "parentheses",
+  "version": "1.0.0",
+  "description": "Vschool warmup Balance Parenthesis - Warmup 20 MAY 2017 Given a string including parentheses, write a function that returns true if every opening parenthesis has a closing parenthesis.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

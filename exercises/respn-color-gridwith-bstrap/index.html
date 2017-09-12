@@ -2,29 +2,33 @@
 <html lang="en">
 
 <head>
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <meta charset="UTF-8">
-    <title>Responsive Color Grid</title>
+    <title>Responsive Color Grid w/bootstrap</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
-    <center>
-        <div id="largePink"></div>
-
-        <div class="smallRed"></div>
-        <div class="smallRed"></div>
-        <div class="smallRed"></div>
-        <div class="smallRed"></div>
-
-        <div class="midBlue"></div>
-        <div class="midBlue"></div>
-
-        <div id="twoThirdBlue"></div>
-
-        <div id="oneThirdTan"></div>
-    </center>
-
+    <div class="container">
+        <div class="row">
+            <div class="largePink col-md-8 col-md-offset-2"></div>
+        </div>
+        <div class="row">
+            <div class="smallRed col-md-2 col-md-offset-2"></div>
+            <div class="smallRed col-md-2"></div>
+            <div class="smallRed col-md-2"></div>
+            <div class="smallRed col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="midBlue col-md-4 col-md-offset-2"></div>
+            <div class="midBlue col-md-4"></div>
+        </div>
+        <div class="row">
+            <div class="twoThirdBlue col-md-6 col-md-offset-2"></div>
+            <div class="oneThirdTan col-md-2"></div>
+        </div>
+    </div>
 </body>
 
 </html>

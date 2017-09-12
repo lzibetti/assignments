@@ -1,3 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+span {  
+    background-color: #FF4F33;
+    color: #F4FEFF;
+    border: none;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.with-padding {
+    padding: 30px;
+}
+
+span {  
+    background-color: #0FB565;
+    color: #F4FEFF;
+    padding: 20px;
+}
+
+.little-border {
+    border: 1px dashed red;
+}
+
+.big-border {
+    border: 10px dashed red;
+}
+
+span {  
+    background-color: #F2AD02;
+    color: #F4FEFF;
+    padding: 10px;
+    margin: 0;
+}
+nav li {  
+    display: inline-block;
+    background-color: #3B62F2;
+}
+
+nav li > a {  
+    text-decoration: none;
+    color: #F4FEFF;
+    display: inline-block;
+    background-color: #3B62F2;
+    padding: 10px;
+    margin: 10px;
+}
+
+.kitten-pic {
+    float:left;
+    margin-right: 15px;
+}
+
+/*
 #largepink{
       background-color: #F5C6D6;
       height: 115px;
@@ -5,3 +63,4 @@
       margin-left: 120px;
       margin-top: 100px;
 }
+*/

@@ -1,0 +1,474 @@
+/*Everything in CSS is either "positioned" or "not positioned"*/
+/*Everything is position: static by default, which is considered "not positioned"*/
+/*position: fixed glues the element to the screen and lets other elements take up its space*/
+/*position: relative doesn't change positioning, but makes an element "positioned"*/
+/*position: absolute repositions an element in relation to its most closely-related "positioned" ancestor, OR the viewable window if there is no positioned ancestor*/
+
+/*Sweedish flag */
+/*
+.sweeden {
+    position: relative;
+}
+.flag-outline-swe {
+    height: 300px;
+    width: 480px;
+    background-color: rgb(254, 204, 0);
+    position: absolute;
+    left: 2%;
+    top: 10px;
+    transform: translateX 50%;
+}
+.box-top-left-swe {
+    height: 125px;
+    width: 130px;
+    background-color: rgb(0, 106, 167);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.box-bottom-left-swe {
+    height: 125px;
+    width: 130px;
+    background-color: rgb(0, 106, 167);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.box-top-right-swe {
+    height: 125px;
+    width: 300px;
+    background-color: rgb(0, 106, 167);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.box-bottom-right-swe {
+    height: 125px;
+    width: 300px;
+    background-color: rgb(0, 106, 167);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+*/
+
+/*Finnish flag*/
+/*
+.finland {
+    position: relative;
+}
+.flag-outline-fin {
+    height: 300px;
+    width: 480px;
+    background-color: #0b0080;
+    position: absolute;
+    right: 2%;
+    top: 10px;
+}
+.box-top-left-fin {
+    height: 125px;
+    width: 130px;
+    background-color: white;
+    position: absolute;
+    border-left: solid rgba(128, 128, 128, 0.05) 0.01px;
+    border-top: solid rgba(128, 128, 128, 0.05) 0.01px;
+}
+.box-bottom-left-fin {
+    height: 125px;
+    width: 130px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    border-left: solid rgba(128, 128, 128, 0.05) 0.01px;
+    border-bottom: solid rgba(128, 128, 128, 0.05) 0.01px;
+}
+.box-top-right-fin {
+    height: 125px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    border-right: solid rgba(128, 128, 128, 0.05) 0.01px;
+    border-top: solid rgba(128, 128, 128, 0.05) 0.01px;
+}
+.box-bottom-right-fin {
+    height: 125px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    border-right: solid rgba(128, 128, 128, 0.05) 0.01px;
+    border-bottom: solid rgba(128, 128, 128, 0.05) 0.01px;
+}
+*/
+
+/*French flag*/
+/*
+.france {
+    position: relative;
+}
+.flag-outline-fra {
+    height: 300px;
+    width: 480px;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    border: solid rgba(128, 128, 128, 0.05) 0.01px;
+}
+.box-left-fra {
+    height: 300px;
+    width: 160px;
+    background-color: blue;
+    position: absolute;
+    top: 26px;
+    left: 10px;
+}
+.box-right-fra {
+    height: 300px;
+    width: 160px;
+    background-color: red;
+    position: absolute;
+    top: 26px;
+    right: 674px;
+}
+*/
+
+/*German flag*/
+/*
+.german {
+    position: relative;
+}
+.flag-outline-ger {
+    height: 300px;
+    width: 480px;
+    position: absolute;
+    background-color: black;
+    top: 30px;
+    left: 15px;
+}
+.box-middle-ger {
+    height: 100px;
+    width: 482px;
+    background-color: red;
+    position: absolute;
+    top: 130px;
+    left: 15px;
+}
+.box-bottom-ger {
+    height: 102px;
+    width: 482px;
+    background-color: yellow;
+    position: absolute;
+    top: 230px;
+    left: 15px;
+}
+*/
+
+/*Madagascar flag*/
+/*
+.madagascar {
+    position: relative;
+}
+.flag-outline-mad {
+    height: 300px;
+    width: 160px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: solid rgba(128, 128, 128, 0.05) 0.01px;
+}
+.box-top-mad {
+    height: 150px;
+    width: 320px;
+    background-color: red;
+    position: absolute;
+    top: 30px;
+    left: 190px;
+}
+.box-bottom-mad {
+    height: 150px;
+    width: 320px;
+    background-color: green;
+    position: absolute;
+    top: 180px;
+    left: 190px;
+}
+*/
+
+/*Swiss flag*/
+/*
+.Swiss {
+    position: relative;
+}
+.flag-outline-swi {
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+.box-horizontal-swi {
+    height: 100px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    top: 260px;
+    left: 196px;
+}
+.box-vertical-swi {
+    height: 300px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    top: 150px;
+    left: 295px;
+}
+*/
+
+/*Gambia flag*/
+/*
+.gambia {
+    position: relative;
+}
+.flag-outline-gam {
+    height: 300px;
+    width: 480px;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    border: solid rgba(128, 128, 128, 0.05) 0.01px;
+}
+.box-top-gam {
+    height: 105px;
+    width: 482px;
+    background-color: red;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+.box-middle-gam {
+    height: 69px;
+    width: 482px;
+    background-color: blue;
+    position: absolute;
+    top: 148px;
+    left: 15px;
+}
+.box-bottom-gam {
+    height: 100px;
+    width: 482px;
+    background-color: green;
+    position: absolute;
+    top: 230px;
+    left: 15px;
+}
+*/
+
+/*Tonga flag*/
+/*
+.tonga {
+    position: relative;
+}
+.flag-outline-ton {
+    height: 300px;
+    width: 520px;
+    position: absolute;
+    background-color: red;
+    top: 50px;
+    left: 90px;
+}
+.box-top-left-ton {
+    height: 130px;
+    width: 210px;
+    position: absolute;
+    background-color: white;
+    top: 50px;
+    left: 90px;
+    border: solid rgba(128, 128, 128, 0.05) 0.01px;
+}
+.box-horizontal-ton {
+    height: 30px;
+    width: 140px;
+    position: absolute;
+    background-color: red;
+    top: 100px;
+    left: 125px;
+}
+.box-vertical-ton {
+    height: 100px;
+    width: 35px;
+    background-color: red;
+    position: absolute;
+    top: 65px;
+    left: 180px;
+}
+*/
+
+/*Japan flag*/
+/*
+.japan {
+    position: relative;
+}
+.flag-outline-jap {
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    background-color: ghostwhite;
+    top: 50px;
+    left: 90px;
+    border: solid rgba(128, 128, 128, 0.05) 0.01px;
+}
+.box-circle-jap {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    top: 125px;
+    left: 265px;
+}
+*/
+
+/*Greek flag*/
+/*
+.greece {
+    position: relative;
+}
+.flag-outline-gre {
+    height: 297px;
+    width: 495px;
+    background-color: blue;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+.box-horizontal-gre {
+    height: 33px;
+    width: 170px;
+    background-color: white;
+    position: absolute;
+    left: 50px;
+    top: 96px;
+}
+.box-vertical-gre {
+    height: 165px;
+    width: 33px;
+    background-color: white;
+    position: absolute;
+    left: 121px;
+    top: 30px;
+}
+.box-short-top-white-gre {
+    height: 33px;
+    width: 327px;
+    background-color: white;
+    position: absolute;
+    left: 220px;
+    top: 63px;
+}
+.box-short-white-gre {
+    height: 33px;
+    width: 327px;
+    background-color: white;
+    position: absolute;
+    left: 220px;
+    top: 129px;
+}
+.flag-border-gre {
+    height: 297px;
+    width: 495px;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    border: solid rgba(128, 128, 128, 0.05) 0.01px;
+}
+*/
+
+/*Niger flag*/
+/*
+.niger {
+    position: relative;
+}
+.flag-outline-nig {
+    height: 300px;
+    width: 350px;
+    background-color: white;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+.box-orange-nig {
+    height: 100px;
+    width: 350px;
+    background-color: orange;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+.box-green-nig {
+    height: 100px;
+    width: 350px;
+    background-color: green;
+    position: absolute;
+    left: 100px;
+    top: 250px;
+}
+.box-circle-nig {
+    height: 90px;
+    width: 90px;
+    background-color: orange;
+    position: absolute;
+    left: 230px;
+    top: 155px;
+    border-radius: 50%;
+}
+.flag-border-nig {
+    height: 299px;
+    width: 349px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    border: solid rgba(128, 128, 128, 0.05) 0.01px;
+}
+*/
+
+/*Maldives flag*/
+.maldives {
+    position: relative;
+}
+.flag-outline-mal {
+height: 300px;
+    width: 500px;
+    background-color: red;
+    position: absolute;
+    left: 180px;
+    top: 70px;
+}
+.box-green-mal {
+    height: 180px;
+    width: 340px;
+    background-color: green;
+    position: absolute;
+    left: 260px;
+    top: 130px;
+}
+.box-white-circle-mal {
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    position: absolute;
+    left: 380px;
+    top: 160px;
+    border-radius: 50%;
+}
+.box-green-circle-mal {
+    height: 120px;
+    width: 120px;
+    background-color: green;
+    position: absolute;
+    left: 405px;
+    top: 160px;
+    border-radius: 50%;
+}
