@@ -1,0 +1,25 @@
+.add{
+    align-content: center;
+    height: auto;
+    margin-left: 7% ;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: aqua;
+    display: inline-block;
+}
+.subtract{
+    align-content: space-around;
+    height: auto;
+    margin-left: 5%;
+    padding: 20px;
+    background-color: blueviolet;
+    display: inline-block;
+}
+.multiply{
+    align-content: space-around;
+    height: auto;
+    margin-left: 5%;
+    padding: 20px;
+    background-color: seagreen;
+    display: inline-block;
+}
